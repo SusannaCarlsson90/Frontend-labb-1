@@ -101,6 +101,28 @@ media (max-width: 1024px) {
   
   }
 
+  /*PIZZABOT*/
+ /* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }*/
+  
+  body .pizza {
+    font-family: "Montserrat", sans-serif;
+    background: #1b2f9f;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  p .pizza {
+    font-size: 1.5em;
+  }
+
 
   @media (max-width: 768px) {
   
